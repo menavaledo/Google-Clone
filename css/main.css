@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+nav .nav-right-section .menu {
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+nav .nav-right-section img {
+    border-radius: 100%;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-logo img {
+    height: 100px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-input-container {
+    border: 1px solid #dfe1e5;
+    border-radius:  20px;
+    width: 525px;
+}
+ 
+main .main-input input {
+    height: 35px;
+    width: 450px;
+    border: none;
+    outline: none;
+}
+
+main .main-input .search-icon {
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+main .main-input .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-input .cam-icon {
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 15px;
+}
+
+main .main-buttons .first-button .button-search {
+    font-family: arial,sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+}
+
+main .main-buttons .second-button .button-lucky {
+    font-family: arial,sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+}
+
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+footer p {
+    padding: 15px 30px;
+    border-bottom: 1px solid;
+    font-size: 15px;
+    color: #9aa0a6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: #9aa0a6;
+    margin-right: 15px;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+footer nav {
+    border: solid #f2f2f2e8;
+    display: flexbox;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding: 2px;
+}
+
+footer .footer-nav-left {
+    flex: 2;
+    justify-self: left;
+}
+
+footer .footer-nav-right {
+    justify-content: end;
+}
+
